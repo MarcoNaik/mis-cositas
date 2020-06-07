@@ -2,13 +2,16 @@ public class Tictactoe {
 
     private static char[][] gameState;
 
-    public Tictactoe(){
+    public Tictactoe(Player X, Player O) {
         gameState = new char[3][3];
         for (char col='a'; col <='c'; col++) {
             for (char row = '1'; row <= '3'; row++) {
                 this.set(col, row, ' ');
             }
         }
+        Player[] player = new Player[2];
+        player[1] = X;
+        player[0] = O;
     }
 
     public void set(char col, char row, char move){
