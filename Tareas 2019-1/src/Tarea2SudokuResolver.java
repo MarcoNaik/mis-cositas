@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SudokuResolver {
+public class Tarea2SudokuResolver {
 
 
     static int[][][] SudokuCandidatos = new int[9][9][9];
