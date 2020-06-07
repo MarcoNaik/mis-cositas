@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Tarea3Listas {
 
     //Estructuras de datos
     public static class Nodo{

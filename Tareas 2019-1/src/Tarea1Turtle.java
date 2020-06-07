@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tarea1{
+public class Tarea1Turtle{
     static Turtle tortuga = new Turtle(960,540, 0 ,1920,1080);
     static int LMIN = 7;
     public static void curvaDeKoch(Turtle tortuga, int largo) {
